@@ -1,4 +1,4 @@
-unction groupByDepartment(employees) {
+function groupByDepartment(employees) {
     let hasil = {}
     employees.forEach(function (employee) {
         if (hasil[employee.department] === undefined) {
